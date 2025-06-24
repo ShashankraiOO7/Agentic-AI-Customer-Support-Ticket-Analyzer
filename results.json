@@ -1,0 +1,42 @@
+[
+  {
+    "ticket_id": "SUP-001",
+    "tone": "Negative/Frustrated",
+    "urgency": "High",
+    "issue_type": "Login/Access",
+    "priority_level": "low",
+    "route_to": "Customer Recovery Team"
+  },
+  {
+    "ticket_id": "SUP-002",
+    "tone": "Neutral",
+    "urgency": "Low",
+    "issue_type": "UI/Display Problem",
+    "priority_level": "medium",
+    "route_to": "General Support"
+  },
+  {
+    "ticket_id": "SUP-003",
+    "tone": "Neutral",
+    "urgency": "Low",
+    "issue_type": "Feature Request",
+    "priority_level": "low",
+    "route_to": "Product Management"
+  },
+  {
+    "ticket_id": "SUP-004",
+    "tone": "Neutral",
+    "urgency": "Medium",
+    "issue_type": "API Usage/Rate Limiting",
+    "priority_level": "medium",
+    "route_to": "General Support"
+  },
+  {
+    "ticket_id": "SUP-005",
+    "tone": "Concerned",
+    "urgency": "High",
+    "issue_type": "Security Vulnerability",
+    "priority_level": "high",
+    "route_to": "General Support"
+  }
+]
