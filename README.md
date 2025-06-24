@@ -1,13 +1,13 @@
 Here is your `README.md` content in **copy-paste format**:
 
----
+
 
 ```markdown
 # 🧠 Customer Support Ticket Analyzer (Draconic AI Case Study)
 
 This project is a multi-agent system built to analyze customer support tickets and determine the best routing strategy based on ticket content and customer profile. It was developed as part of the Draconic AI Engineering Case Study.
 
----
+
 
 ## 🚀 Objective
 
@@ -129,7 +129,7 @@ pip install openai python-dotenv pydantic
 2. Set your OpenAI API key:
 
 ```bash
-export OPENAI_API_KEY=your-key-here
+export Gemini_API_KEY=your-key-here
 ```
 
 3. Run all agents on test data:
