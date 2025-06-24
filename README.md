@@ -123,7 +123,7 @@ python evaluation/evaluator.py
 1. Install dependencies:
 
 ```bash
-pip install openai python-dotenv pydantic
+pip install requirements.txt
 ```
 
 2. Set your OpenAI API key:
@@ -155,11 +155,9 @@ python evaluation/evaluator.py
 ## ✨ Credits
 
 Developed by \Shashank Rai
-As part of the **Draconic AI Engineer Case Study** (Option A: Customer Support Ticket Analyzer)
 
 ```
-
+As part of the **Draconic AI Engineer Case Study** (Option A: Customer Support Ticket Analyzer)
 ---
 
-Let me know if you'd like this customized with your name or GitHub URL!
 ```
