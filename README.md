@@ -1,7 +1,5 @@
 
 
-
-
 ```markdown
 # 🧠 Customer Support Ticket Analyzer (Draconic AI Case Study)
 
@@ -28,7 +26,6 @@ Create a multi-agent system using LLM-based agents that:
 | `MessageAnalysisAgent` | Extracts `issue_type`, `urgency`, and `tone` from ticket text |
 | `PriorityAgent`        | Calculates ticket priority using customer tier, history, etc. |
 | `RoutingAgent`         | Recommends routing path based on analysis + priority          |
-| `SanityChecker`        | (Optional) Validates logical consistency in agent outputs     |
 
 Agents are implemented using LLMs and Pydantic schema validation.
 
@@ -75,7 +72,6 @@ your-name-case-study/
 │   ├── message_analysis_agent.py  # Intent, urgency, tone
 │   ├── priority_agent.py          # Customer priority scoring
 │   ├── routing_agent.py           # Routing decisions
-│   └── sanity_checker.py          # Optional consistency checks
 ├── evaluation/
 │   ├── evaluator.py               # Accuracy & logic evaluator
 │   └── ground_truth.json          # Expected results for test cases
@@ -126,7 +122,7 @@ python evaluation/evaluator.py
 pip install requirements.txt
 ```
 
-2. Set your OpenAI API key:
+2. Set your Gemini API key:
 
 ```bash
 export Gemini_API_KEY=your-key-here
@@ -154,10 +150,14 @@ python evaluation/evaluator.py
 
 ## ✨ Credits
 
-Developed by \Shashank Rai
+Developed by 
+Shashank Rai
+```
+Indian Institute of Information Technology Lucknow.
+```
 
 ```
-As part of the **Draconic AI Engineer Case Study** (Option A: Customer Support Ticket Analyzer)
+As part of the **Draconic AI Engineer Case Study** (Customer Support Ticket Analyzer)
 ---
 
 ```
