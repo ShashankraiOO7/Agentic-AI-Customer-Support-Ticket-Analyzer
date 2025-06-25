@@ -1,4 +1,4 @@
-# System Architecture – Customer Support Ticket Analyzer (Option A)
+# System Architecture – Customer Support Ticket Analyzer
 
 ## 1. Overview
 
